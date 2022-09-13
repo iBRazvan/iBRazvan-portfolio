@@ -34,7 +34,7 @@ const About = () => {
                 a situation control me. (...)"
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
+            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all duration-300">
               Contact me
             </button>
           </div>

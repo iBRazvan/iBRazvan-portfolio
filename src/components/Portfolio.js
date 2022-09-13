@@ -13,7 +13,7 @@ const Portfolio = () => {
           </h2>
           <p className='subtitle'>
             Here I present you some of my projects.
-            For more projects, please visit the GitHub account.
+            For more projects, please visit my GitHub account.
           </p>
         </div>
         <Projects />
