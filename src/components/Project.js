@@ -5,7 +5,7 @@ const Project = ({ item }) => {
     <div key={item.id} className="flex flex-col items-center text-center">
       <div className="mb-8">
         <img
-          className="rounded-2xl w-96 h-80 hover:scale-150 hover:w-fit hover:h-auto transition-transform "
+          className="rounded-2xl w-96 h-80 lg:hover:scale-150 lg:hover:w-fit lg:hover:h-auto lg:transition-transform"
           src={item.image}
           alt=""
         />
