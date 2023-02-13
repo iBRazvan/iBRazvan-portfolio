@@ -16,10 +16,12 @@ const Project = ({ item }) => {
 
       <div className="flex flex-row gap-5">
         <button className="border-2 rounded-full w-20 hover:border-accent hover:text-white border-paragraph text-gray-300 ">
-          <a href="">Project</a>
+          <a href={item.github} rel="noreferrer" target="_blank">
+            Project
+          </a>
         </button>
         <button className="border-2 rounded-full w-20  hover:border-accent hover:text-white border-paragraph text-gray-300">
-          <a href="" rel="noreferrer " target="_blank">
+          <a href={item.website} rel="noreferrer" target="_blank">
             Website
           </a>
         </button>
