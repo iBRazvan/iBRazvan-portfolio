@@ -28,6 +28,10 @@ import Project6 from "./assets/img/projects/counter-searchbar.png";
 import Project7 from "./assets/img/projects/task-manager.png";
 import Project8 from "./assets/img/projects/todo-app.png";
 import Project9 from "./assets/img/projects/todo-app2.png";
+import traveladvisor from "./assets/img/projects/traveladvisor.PNG";
+import cryptonite from "./assets/img/projects/cryptonite.PNG";
+import getconnect from "./assets/img/projects/getconnect.PNG";
+import etronix from "./assets/img/projects/etronix.PNG";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -108,57 +112,83 @@ export const brands = [
 export const projectsData = [
   {
     id: "1",
+    image: etronix,
+    name: "e-Tronix (Ecommerce website,NextJS)",
+    category: "ReactJS",
+  },
+  {
+    id: "2",
+    image: getconnect,
+    name: "getConnect (social-media website)",
+    category: "ReactJS",
+  },
+  {
+    id: "3",
+    image: cryptonite,
+    name: "CryptoNite (cryptocurrency exchange)",
+    category: "ReactJS",
+  },
+  {
+    id: "4",
+    image: traveladvisor,
+    name: "TravelAdvisor",
+    category: "ReactJS",
+  },
+  {
+    id: "5",
     image: Project1,
     name: "Landing page",
     category: "Other projects",
   },
   {
-    id: "2",
+    id: "6",
     image: Project2,
     name: "Landing page",
     category: "Other projects",
   },
   {
-    id: "3",
+    id: "7",
     image: Project3,
-    name: "Images Slider",
+    name: "Transitions Images Slider",
     category: "JavaScript",
   },
   {
-    id: "4",
+    id: "8",
     image: Project4,
     name: "Vertical Slider",
     category: "JavaScript",
   },
   {
-    id: "5",
+    id: "9",
     image: Project5,
-    name: "Four JavaScript projects/games",
+    name: "Drag and Drop|AimTraining(game) | Temperature Control | Drawpad",
     category: "JavaScript",
+    noprojects: "4x Projects",
   },
   {
-    id: "6",
+    id: "10",
     image: Project6,
-    name: "Simple counter app and search bar",
-    category: "React",
+    name: "Complete search bar(filter) | Counter app",
+    category: "ReactJS",
+    noprojects: "2x Projects",
   },
   {
-    id: "7",
+    id: "11",
     image: Project7,
     name: "Task-Manager",
-    category: "React",
+    category: "ReactJS",
   },
   {
-    id: "8",
+    id: "12",
     image: Project8,
     name: "Todo-App",
-    category: "React",
+    category: "ReactJS",
   },
   {
-    id: "9",
+    id: "13",
     image: Project9,
     name: "Todo-App-v2",
-    category: "React",
+    category: "ReactJS",
   },
 ];
 
@@ -171,7 +201,7 @@ export const projectsNav = [
     name: "JavaScript",
   },
   {
-    name: "React",
+    name: "ReactJS",
   },
   {
     name: "Other projects",
@@ -211,14 +241,12 @@ export const skills = [
 
 // services
 export const services = [
-
   {
     icon: <FiSettings />,
     name: "Web Development",
-    description: 'There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for!',
-
+    description:
+      "There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for!",
   },
-
 ];
 
 // contact
