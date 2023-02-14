@@ -20,11 +20,19 @@ const Project = ({ item }) => {
             Project
           </a>
         </button>
-        <button className="border-2 rounded-full w-20  hover:border-accent hover:text-white border-paragraph text-gray-300">
-          <a href={item.website} rel="noreferrer" target="_blank">
-            Website
-          </a>
-        </button>
+        {item.website === "" ? (
+          <button className="border-2 rounded-full w-20   border-paragraph focus:outline-none disabled:opacity-50">
+            <a href={item.website} rel="noreferrer" target="_blank">
+              Website
+            </a>
+          </button>
+        ) : (
+          <button className="border-2 rounded-full w-20  hover:border-accent hover:text-white border-paragraph text-gray-300">
+            <a href={item.website} rel="noreferrer" target="_blank">
+              Website
+            </a>
+          </button>
+        )}
       </div>
     </div>
   );
