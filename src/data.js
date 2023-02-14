@@ -9,6 +9,7 @@ import {
   FiMail,
   FiMapPin,
   FiLinkedin,
+  FiSlack,
 } from "react-icons/fi";
 
 // companies icons
@@ -272,6 +273,12 @@ export const services = [
     name: "Web Development",
     description:
       "There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for!",
+  },
+  {
+    icon: <FiSlack />,
+    name: "JavaScript Development",
+    description:
+      "My main focus was to use JavaScript as a developing language in order to implement certain functionalities & I also used the help of certain frameworks in my coding sessions, such as: React / Redux / NextJS / Stripe / Mui / antd . Learned how to use Sanity, to create,configure and customize workspaces, to create content for any channel,application, or service",
   },
 ];
 

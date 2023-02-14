@@ -23,15 +23,15 @@ const About = () => {
               <p className="mb-8">
                 "I am a self-driven front-end developer and have been in the
                 industry for more than one year. I have a keen eye for detail
-                and for the work I do.<br />
+                and for the work I do.
                 <br />
-                In addition, I have also finished an
-                SkillBrain Front-End Web Development Training Course in 2022.
-                
-                <br/>
-                I
-                am a person who is able to control a situation rather than have
-                a situation control me. (...)"
+                <br />
+                In addition, I have also finished an SkillBrain Front-End Web
+                Development Training Course in 2022. After that, I did the
+                internship at the 7Code company as a Junior Front-End Developer
+                <br />
+                <br />I am a person who is able to control a situation rather
+                than have a situation control me. (...)"
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all duration-300">
